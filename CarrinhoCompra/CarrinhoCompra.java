@@ -13,7 +13,15 @@ public class CarrinhoCompra {
         itensList.add(new Item(nome, preco, qtd));
     }
     public void remover(){
+        System.out.println("função a ser implementada...");
+        // List<Item> removidoItems = new ArrayList<>();
+        // if (!itensList.isEmpty()){
+        //     for (Item i : itensList){
+        //         if (i.getNome().equalsIgnoreCase(nome)){
 
+        //         }
+        //     }
+        // }
     }
     public int calcular(){
         return itensList.size();
